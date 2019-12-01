@@ -9,7 +9,7 @@ md .\build
 ::the MinGW is too big to upload , zip and split into smaill files
 ::now unzip it 
 if  not exist .\lib\MinGW (
-	7z.exe x -y .\lib\MinGW.7z.001 -o.\lib
+	.\lib\7z.exe x -y .\lib\MinGW.7z.001 -o.\lib
 )
 
 set path=%path%;.\lib;.\lib\MinGW\bin\
